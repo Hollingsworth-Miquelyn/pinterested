@@ -1,0 +1,14 @@
+I"à(function() {
+  $(function() {
+    return $('#pins').imagesLoaded(function() {
+      $('#pins').masonry({
+        itemSelector: '.box'
+      });
+      return {
+        isFitWidth: true
+      };
+    });
+  });
+
+}).call(this);
+:ET

@@ -14,6 +14,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.2' 
 gem 'paperclip', '~> 5.0'
 gem 'aws-sdk', '~> 2.4', '>= 2.4.3'
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.0'
 
  
 group :development, :test do
